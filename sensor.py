@@ -2,7 +2,7 @@ import Adafruit_DHT
 import time
  
 DHT_SENSOR = Adafruit_DHT.DHT22
-DHT_PIN = 4
+DHT_PIN = 8
  
 while True:
     humidity, temperature = Adafruit_DHT.read(DHT_SENSOR, DHT_PIN)
